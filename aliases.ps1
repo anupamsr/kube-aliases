@@ -361,6 +361,9 @@ New-Alias -Name kgysa -Value ps1_kgysa
 New-Alias -Name kgysc -Value ps1_kgysc
 New-Alias -Name kgyscls -Value ps1_kgyscls
 New-Alias -Name kgyss -Value ps1_kgyss
+New-Alias -Name kk -Value ps1_kk
+New-Alias -Name kkg -Value ps1_kkg
+New-Alias -Name kku -Value ps1_kku
 New-Alias -Name kl -Value ps1_kl
 New-Alias -Name klf -Value ps1_klf
 New-Alias -Name kns -Value ps1_kns
@@ -798,6 +801,9 @@ function ps1_kgysa {kubectl get -o yaml serviceaccount}
 function ps1_kgysc {kubectl get -o yaml secret}
 function ps1_kgyscls {kubectl get -o yaml storageclass}
 function ps1_kgyss {kubectl get -o yaml statefulset}
+function ps1_kk {kubectl config}
+function ps1_kkg {kubectl config get-contexts}
+function ps1_kku {kubectl config use-context}
 function ps1_kl {kubectl logs}
 function ps1_klf {kubectl logs -f}
 function ps1_kns {kubens}
