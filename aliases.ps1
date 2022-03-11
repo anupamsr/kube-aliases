@@ -367,6 +367,7 @@ New-Alias -Name kku -Value ps1_kku
 New-Alias -Name kl -Value ps1_kl
 New-Alias -Name klf -Value ps1_klf
 New-Alias -Name kns -Value ps1_kns
+New-Alias -Name knsh -Value ps1_knsh
 New-Alias -Name krd -Value ps1_krd
 New-Alias -Name wkgacj -Value ps1_wkgacj
 New-Alias -Name wkgacm -Value ps1_wkgacm
@@ -807,6 +808,7 @@ function ps1_kku {kubectl config use-context}
 function ps1_kl {kubectl logs}
 function ps1_klf {kubectl logs -f}
 function ps1_kns {kubens}
+function ps1_knsh {kubectl node-shell}
 function ps1_krd {kubectl rollout restart deployment}
 function ps1_wkgacj {watch kubectl get --all-namespaces -o wide cronjob}
 function ps1_wkgacm {watch kubectl get --all-namespaces -o wide configmap}

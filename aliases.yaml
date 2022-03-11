@@ -173,4 +173,6 @@ additional:
   - short: kku
     cmd: "kubectl config use-context"
     comment: "Set the current-context in a kubeconfig file."
-
+  - short: knsh
+    cmd: "kubectl node-shell"
+    comment: "Spawn a root shell on a node via kubectl"
